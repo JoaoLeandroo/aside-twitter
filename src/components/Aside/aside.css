@@ -1,0 +1,74 @@
+aside {
+    width: 300px;
+    height: 100vh;
+}
+
+aside h1 {
+    width: 80%;
+    margin: 15px auto;
+}
+
+h1 a {
+    width: 70px;
+    margin-left: 19px;
+    color: var(--whitePrimary);
+}
+
+
+aside nav {
+    margin: 0 auto;
+    width: 80%;
+}
+
+aside nav a {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--whitePrimary);
+    border-radius: 30px;
+}
+
+aside nav a:hover {
+    background-color: rgba(128, 128, 128, 0.37);
+}
+
+aside nav a div {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 15px;
+}
+
+aside nav a div span {
+    margin-right: 12px;
+    font-size: 1.6rem;
+}
+
+aside nav a div svg {
+    margin-left: 8px;
+}
+
+aside button {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    color: var(--whitePrimary);
+    background-color: var(--bluePrimary);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    transition: all 0.2s ease;
+}
+
+aside button:hover {
+    background-color: rgb(33, 137, 168);
+}
+

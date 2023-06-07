@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --bluePrimary: #1D9BF0; 
+  --whitePrimary: #FFFFFF;
+  --background: #1C2732;
+}
+body {
+  background-color: var(--background);
+}
